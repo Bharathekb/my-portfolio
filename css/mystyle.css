@@ -1,0 +1,840 @@
+/* ===============================
+          Default Theme
+ ---------------------------------
+ Fonts:Teko & Jost
+ --------------------------------
+ Colors:
+ -------------------------------
+     Vermillion: #eb2411;
+     Cyber Yellow: #ffd416;
+     Carolin Blue: #1da2f5;
+     black: #000;
+     white: #fff;
+==================================*/
+
+/*================================
+  |   |  Html, Body
+  ================================*/
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: #fff;
+    overflow: hidden;
+}
+
+/*================================
+        Buttons
+  ================================*/
+.btn-general {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd416;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px 46px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+/*================================
+     Header
+  ================================*/
+/* Navigation */
+
+
+.navbar {
+    background-color: rgb(16, 15, 15);
+    padding: 0 5px;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #ffd416;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+
+
+}
+
+
+#home-logo {
+    padding: 0 10px;
+    margin: 0;
+
+}
+
+.navbar-nav {
+    margin: 20px auto 0 auto;
+}
+
+.nav-item a {
+    color: #fff;
+    margin: 0 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.nav-item hr {
+    border: 2px solid #ffd416;
+    opacity: 0;
+    color: #ffd416;
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    transition: 0.3s ease-in;
+
+}
+
+.nav-item a:hover {
+    color: #fff;
+
+
+}
+
+.nav-item a:hover hr {
+    opacity: 1;
+}
+
+.nav-item a:focus {
+    color: #1da2f5;
+}
+
+#contact-btn {
+    font-size: 15px;
+    padding: 9px 15px;
+    color: #fff;
+    margin: -10px auto 0 auto;
+    display: inline-block;
+
+}
+
+#contact-btn:hover {
+    background-color: #555;
+    border-color: #555;
+
+}
+
+
+/*================================
+        Home
+  ================================*/
+#home {
+    background-color: #000;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* Heading */
+#heading {
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#heading h1 {
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+#heading #second-heading {
+    color: #ffd416;
+    font-weight: 800;
+
+}
+
+#heading p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#heading a {
+    text-decoration: none;
+    background-color: #ffd416;
+    padding: 15px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+#heading a:hover {
+    background-color: #555;
+}
+
+/* Header Background*/
+#header-bg {
+    width: 60%;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    left: 40%;
+    top: 0;
+
+}
+
+#header-bg img {
+    position: relative;
+    bottom: 15%;
+    height: 100%;
+    display: block;
+    opacity: 0.5;
+
+}
+
+/*================================
+        About
+  ================================*/
+
+/* Left content  */
+.content-box-lg {
+    width: 100%;
+    height: 100%;
+    margin: 50px auto;
+
+}
+
+#left-content {
+    width: 88%;
+    height: 700px;
+    border: 20px solid #555;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+#left-content img {
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    margin: 10px auto;
+}
+
+/* Right content  */
+#right-content {
+    margin: 0 10px;
+    padding: 2px 25px;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+
+}
+
+#right-content:hover {
+    background-color: #1da2f5;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#right-content:hover #academic {
+    color: #ffd416;
+}
+
+#right-content h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#academic {
+    font-size: 20px;
+    color: #eb2411;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+#academic hr {
+    border: 1px solid #eb2411;
+    color: #eb2411;
+    width: auto;
+    opacity: 1;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+#right-content:hover hr {
+
+    color: #ffd416;
+}
+
+#right-content:hover #name strong,
+#right-content:hover .profile-list strong {
+    color: #ffd416;
+}
+
+.education {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.profile-list {
+
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+/*================================
+       Skills
+  ================================*/
+#skills {
+    background-color: #fcf7f7;
+    margin-bottom: 20px;
+
+}
+
+
+
+#my-skil h1 {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 36px;
+}
+
+#skill-para {
+    padding: 10px 100px;
+}
+
+#skill-para p {
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+
+}
+
+#progress-elements {
+    padding: 0 40px
+}
+
+#progress-elements .col-md-6 {
+    margin-bottom: 20px;
+}
+
+#progress-elements .col-md-6 h4 {
+    margin: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.progress {
+    height: 18px;
+    border-radius: 0;
+    background-color: #e4e6e3;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #ffd416;
+    position: relative;
+}
+
+/*================================
+       Experience
+  ================================*/
+#experience {
+
+    background-image: url(../images/backimage/back-pic.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.animate {
+    background: rgba(0, 0, 0, 0.1);
+
+
+}
+
+.stats {
+
+    color: #ffffff;
+    margin: 80px 120px;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0, 0.3);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0, 0.3);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+
+}
+
+.stats:hover {
+    color: #ffd416;
+    background-color: #e4e6e3;
+    font-family: "Poppins", sans-serif;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+}
+
+.stats span,
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.stats p {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+/*================================
+       Process
+  ================================*/
+#process-heading {
+    margin: 25px 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+#process-heading h1 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+#process-heading p {
+    font-weight: 500;
+    padding: 10px 20px 0 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+
+
+/*================================
+       Projects
+  ================================*/
+#project-box {
+    background-color: #faf8f8;
+    text-align: center;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+#project-heading {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#project-heading h1 {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+#project-heading p {
+    font-size: 18px;
+}
+
+.project-box {
+    overflow: hidden;
+}
+
+.project-box a {
+    text-decoration: none;
+
+}
+
+.project-box a img {
+    padding: 5px;
+    margin: 8px auto;
+}
+
+.project-details h1 {
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+}
+
+/* Zoom Effect */
+.project-box img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.project-box:hover img {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+
+
+
+
+/*================================
+       Contact
+  ================================*/
+#contact-heading {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#contact-heading h1 {
+
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.office-details li {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.office-details li h5 {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.office-details li p {
+    margin: 0 20px;
+}
+
+iframe {
+    margin: 10px;
+}
+
+/*================================
+     About Me
+  ================================*/
+#about-me {
+    background-color: #000;
+    padding: 60px 0;
+    margin: 50px auto 0 auto;
+}
+
+#my-details {
+    color: #e4e6e3;
+    padding: 5px auto;
+}
+
+#my-details h4 {
+    font-weight: 500;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#my-details h4 span {
+    color: #ffd416;
+    margin-bottom: 15px;
+    font-size: 27px;
+    padding: 0 10px;
+}
+
+#my-details ul li {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+#my-card img {
+    margin: 0 auto;
+}
+
+#mylogocard hr {
+    background-color: #000;
+    margin: 0;
+}
+
+/*================================
+     Footer
+  ================================*/
+footer {
+    background-color: #000;
+    padding: 20px;
+}
+
+footer p {
+    color: #e4e6e3;
+    margin: 0;
+}
+
+/* Back to Top */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 20px 12px;
+    border-radius: 20px;
+    display: none;
+}
+
+#back-to-top span {
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#back-to-top:hover span {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+/* Disclaimer */
+.disclaimer {
+    display: none;
+}
+
+/*================================
+     Media Queries
+  ================================*/
+
+@media screen and (max-width:1024px) {
+
+    #left-content {
+        width: 100%;
+        height: 700px;
+        border: none;
+        margin: 5px auto;
+        overflow: hidden;
+
+    }
+
+    #left-content img {
+        top: 15%;
+        left: 5%;
+        margin: 0 auto;
+
+
+    }
+
+    #right-content {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #home {
+
+        height: 70%;
+
+    }
+
+    /* heading */
+    #heading {
+        top: 18%;
+        left: 4%;
+    }
+
+    #heading h1 {
+        font-size: 45px;
+        font-weight: 600;
+
+    }
+
+    #heading a {
+        text-decoration: none;
+        background-color: #ffd416;
+        padding: 15px 25px;
+        margin-top: 20px;
+        display: inline-block;
+        color: #fff;
+    }
+
+    /* Heading background */
+    #header-bg {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+    }
+
+    #header-bg img {
+        position: relative;
+        bottom: 15%;
+        left: 0;
+        height: 100%;
+        display: block;
+        opacity: 0.5;
+
+    }
+
+    #skill-para {
+        padding: 10px 5px;
+    }
+
+    /* Experience */
+
+    .stats {
+
+
+        margin: 20px 120px;
+
+
+
+    }
+
+    .stats span,
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+
+    }
+
+    .stats p {
+        font-size: 15px;
+        font-weight: 700;
+
+    }
+
+    #left-content {
+        height: 550px;
+    }
+
+    #left-content img {
+        top: 0;
+        left: 0;
+        margin: 0 auto;
+
+
+    }
+
+    #right-content h1 {
+
+        font-size: 28px;
+    }
+
+    #office {
+        text-align: center;
+    }
+
+    #my-details {
+        text-align: center;
+    }
+
+    #my-details ul li {
+        list-style: none;
+        padding: 10px 0;
+        margin: 0 0 0 -20px;
+    }
+}
+
+@media screen and (max-width:578px) {
+
+
+    #home-logo {
+        padding: 0;
+
+
+    }
+
+
+    #header-bg {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+    }
+
+    #header-bg img {
+        position: relative;
+        bottom: 15%;
+        left: -45%;
+        height: 100%;
+        display: block;
+        opacity: 0.5;
+
+    }
+
+    #name {
+        font-size: 18px;
+    }
+
+    #academic {
+        font-size: 18px;
+        padding: 12px 0;
+    }
+
+    .education {
+        font-size: 18px;
+    }
+
+    .profile-list {
+        font-size: 18px;
+
+    }
+
+}
+
+@media screen and (max-width:426px) {
+
+    #home {
+
+        height: 60%;
+
+    }
+}
